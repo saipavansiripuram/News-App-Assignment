@@ -1,0 +1,32 @@
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.container {
+  max-width: 960px;
+}
+
+.pricing-header {
+  margin-top: 12rem;
+  max-width: 700px;
+}
+
+.card-deck .card {
+  min-width: 220px;
+}
+
+.highlight {
+  background-color: rgb(225, 246, 253);
+}
+
+#header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
